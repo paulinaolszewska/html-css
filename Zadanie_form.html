@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div>
+			<form action="mailto:mee@buzka.xx" method="post">
+				<label for="title">Tytuł</label>
+				<select id="title" name="title">
+					<option value="mr">Pan</option>
+					<option value="mrs">Pani</option></select
+				><br />
+				<br />
+				<label for="firstname">Imię</label>
+				<input
+					type="text"
+					id="firstname"
+					name="firstname"
+					placeholder="Wpisz imię"
+				/><br />
+				<br />
+				<label for="surname">Nazwisko</label>
+				<input
+					type="text"
+					id="surname"
+					name="surname"
+					placeholder="Wpisz nazwisko"
+				/>
+				<br />
+				<br />
+				<label for="birth">Data urodzin</label>
+				<input type="date" id="birth" name="birth" />
+				<br />
+				<br />
+				<label for="email">email</label>
+				<input type="email" id="email" name="email" placeholder="Wpisz mail" />
+				<br />
+				<br />
+				<label for="phone">Nr. telefonu</label>
+				<input
+					type="tel"
+					id="phone"
+					name="phone"
+					placeholder="+48 123 123 123"
+				/>
+				<br />
+				<br />
+				<p>Treści do subskrybcji:</p>
+				<input type="checkbox" id="sport" name="adv_sub" value="sport" />
+				<label for="sport">Sport</label> <br />
+				<input type="checkbox" id="pol" name="adv_sub" value="politic" />
+				<label for="pol">Polityka</label>
+				<br />
+				<br />
+				<input type="checkbox" id="mail_agree" name="mail_agree" value="true" required/>
+				<label for="mail_agree"> </label>
+					wyrażam zgodę na otrzymywanie treści reklamowych drogą
+					elektroniczną</label
+				><br>
+                <input type="checkbox" id="phone_agree" name="phone_agree" value="true" required/>
+				<label for="phone_agree"> </label>
+					wyrażam zgodę na otrzymywanie treści reklamowych poprzez SMS na
+                    podany nrumer telefonu</label
+				><br>
+                <br>
+                <input type="submit" value="Prześlij formularz">
+                <input type="reset" value="Wyczyść formularz">
+                
+                
+			</form>
+		</div>
+	</body>
+</html>
+<!-- Stwórz formularz zapisu na listę subksrybentów, w którym będą pola na takie
+		dane jak: 
+    y    -lista select, gdzie będzie można wybrać tytuł Pani/Pan 
+    y    -imię
+	y	-nazwisko 
+    y    -data urodzenia 
+    y    -email 
+    y    -nr telefonu 
+    y    -pole wielokrotnego wyboru, gdzie będzie można wybrać, jakie treści reklamowe nas interesują 
+    y    -akceptacja regulaminu na otrzymywanie treści reklamowych drogą elektroniczną
+	y	-akceptacja regulaminu na otrzymywanie treści reklamowych poprzez SMS na
+		podany nr telefonu 
+        -przycisk do wysłania formularza 
+        -przycisk anuluj (reset danych) -->

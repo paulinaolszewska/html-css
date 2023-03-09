@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="mailto:trebaczwojciech90@gmail.com" method="post">
+			<label for="firstname">Imię</label>
+			<input
+				name="firstname"
+				id="firstname"
+				type="text"
+				placeholder="wpisz imię"
+			/>
+			<br />
+			<br />
+			<label for="surname">Nazwisko</label>
+			<input
+				name="surname"
+				id="surname"
+				type="text"
+				placeholder="wpisz nazwisko"
+			/>
+			<br />
+			<br />
+			<label for="email">Email</label>
+			<input name="email" id="email" type="email" placeholder="wpisz email" />
+
+			<br />
+			<br />
+			<label for="password">Hasło</label>
+			<input
+				name="password"
+				id="password"
+				type="password"
+				placeholder="wpisz hasło"
+				required
+			/>
+			<!-- wymagane required -->
+			<br />
+			<br />
+			<p>Lubię:</p>
+			<input type="radio" value="sun" name="weather" id="sun" /><label for="sun"
+				>Słońce</label
+			>
+			<input type="radio" value="rain" name="weather" id="rain" /><label
+				for="rain"
+				>Deszcz</label
+			>
+			<!-- name jest łącnzikiem pomiędzy kropkami aby współdziałały -->
+			<br />
+			<br />
+			<p>Moje zainteresowania:</p>
+			<input type="checkbox" value="music" name="hobby" id="music" />
+			<label for="music">Muzyka</label>
+			<br />
+			<input type="checkbox" value="theather" name="hobby" id="theather" />
+			<label for="theather">Teatr</label>
+			<br />
+			<br />
+			<label for="food"></label>
+			<select id="food" name="food">
+				<option value="all">wszystko</option>
+				<option value="pizza">pizza</option>
+				<option value="bread">chleb</option>
+			</select>
+			<input type="submit" value="Wyślij" />
+			<input type="reset" value="Wyczyść" />
+		</form>
+		<br />
+		<br />
+		<br />
+		<button>Przycisk</button>
+	</body>
+</html>
