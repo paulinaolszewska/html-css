@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="mailto:paulinaannaolszewska@gmail.com" method="post">
+        <label for="firstname">Imię </label><input name="firstname" id="firstname" type="text" placeholder="Wpisz imię..."><br><br>
+        <label for="surname">Nazwisko</label><input type="text" id="surname" name="surname" placeholder="Wpisz nazwisko"><br><br>
+        <label for="email">E-mail </label><input name="email" id="email" type="email" placeholder="Wpisz email..." required><br><br>
+        <label for="password">Hasło </label><input name="password" id="password" type="password" placeholder="Wpisz hasło..."><br><br>
+        <p>Lubię: </p>
+        <input type="radio" value="sun" name="weather" id="sun"><label for="sun">Słońce</label>
+        <input type="radio" value="rain" name="weather" id="rain"><label for="rain">Deszcz</label>
+        <p>Moje zainteresowania:</p>
+        <input type="checkbox" value="music" name="hobby" id="music"><label for="music">Muzyka</label>
+        <input type="checkbox" value="sport" name="hobby" id="sport"><label for="sport">Sport</label><br><br>
+        <label for="food"></label><select id="food" name="food">
+            <option value="all">Wszystko</option>
+            <option value="pizza">Pizza</option>
+            <option value="hamburger">Hamburger</option>
+            <option value="bread">Chleb</option>
+        </select><br><br>
+        <input type="submit" value="Wyślij">
+        <input type="reset" value="Wyczyść">
+        <!-- <button>Wyślij</button> -->
+    </form>
+    <button>Wyślij</button>
+</body>
+</html>
