@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	/* robi tak że ustawienie wielkości uwzględnia w ielkość dla borderów i padingów */
+	box-sizing: border-box;
+}
+
+div {
+	width: 360px;
+	height: 856px;
+}
+
+.naglowek {
+	height: 80px;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 130.19%;
+	text-align: center;
+	color: #4c4c4c;
+	margin-top: 33px;
+}
+.naglowek2 {
+	height: 48px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 147%;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #4c4c4c;
+	margin-top: 26px;
+}
+.naglowek3 {
+	height: 63px;
+	font-family: Roboto;
+
+	text-align: center;
+	font-weight: 400;
+	color: #909090;
+	margin-top: 53px;
+}
+.naglowek4 {
+	width: 315.56px;
+	height: 312px;
+	font-family: Roboto;
+	color: #4c4c4c;
+	font-size: 16px;
+	line-height: 130.19%;
+	margin: 67px 22.44px 0px 22px;
+}
+.naglowek5 {
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19px;
+	text-align: center;
+	color: #4c4c4c;
+	margin-top: 100px;
+}

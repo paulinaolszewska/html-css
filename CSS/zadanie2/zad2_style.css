@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+
+/* reset styli zawsze na początek */
+* {
+	margin: 0;
+	padding: 0;
+	/* robi tak że ustawienie wielkości uwzględnia w ielkość dla borderów i padingów */
+	box-sizing: border-box;
+}
+.div1 {
+	width: 156px;
+	height: 85px;
+	background-color: #d9d9d9;
+	display: block;
+	margin: 0px 0px 0px 294px;
+}
+.div1 .text1 {
+	width: 39px;
+	height: 22px;
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 600;
+	color: black;
+	display: inline-block;
+	margin: 17px 91px 46px 26px;
+}
+#main {
+	width: 769px;
+	display: block;
+}
+.div2 {
+	display: block;
+	margin: 0px 278px 0px 253px;
+}
+.div2 .text1 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+	font-family: Roboto;
+}
+.div3 {
+	background-color: #d9d9d9;
+	width: 156px;
+	height: 55px;
+	margin: 0px 412px 0px 197px;
+}
+.div3 .text1 {
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 600;
+	margin: 17px 91px 16px 26px;
+	display: inline-block;
+}
+.div4 {
+	display: block;
+	margin: 0px 26px 0px 0px;
+}
+.div4 .text1 {
+	text-align: center;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 50px;
+	font-family: "Kalam", cursive;
+}
+.div5 {
+	width: 156px;
+	height: 40px;
+	background-color: #d9d9d9;
+	margin: 0px 555px 0px 58px;
+}
+.div5 .text1 {
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 600;
+	margin: 17px 91px 1px 26px;
+	display: inline-block;
+}
+.div6 {
+	display: block;
+	margin: 0px 0px 0px 26px;
+}
+.div6 .text1 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30.95px;
+	font-family: roboto;
+}
+input[type="text"] {
+	margin: 0px 170px 0px 139px;
+	width: 463px;
+	height: 44px;
+	border: 1px solid #e4e4e4;
+	border-radius: 3px;
+}
+
+.div7 {
+	background-color: #d9d9d9;
+	width: 156px;
+	height: 19px;
+	margin: 0px 200px 0px 413px;
+}
+.div7 .text1 {
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 600;
+	margin: 6px 91px 5px 26px;
+	display: inline;
+}
+input[type="email"] {
+	margin: 0px 170px 0px 139px;
+	width: 463px;
+	height: 44px;
+	border: 1px solid #e4e4e4;
+	border-radius: 3px;
+}
+.div8 {
+	background-color: #d9d9d9;
+	width: 156px;
+	height: 55px;
+	margin: 0px 411px 0px 202px;
+}
+.div8 .text1 {
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 600;
+	margin: 17px 91px 16px 26px;
+	display: inline-block;
+}
+button {
+	width: 239px;
+	height: 63px;
+	background-color: #b69269;
+	border: 1px solid #b69269;
+	border-radius: 3px;
+	margin: 0px 278px 0px 252px;
+}
+button span {
+	font-family: roboto;
+	font-size: 24px;
+	font-weight: 600;
+	color: #fbfbfb;
+}
+.div9 {
+	width: 156px;
+	height: 85px;
+	background-color: #d9d9d9;
+	display: block;
+	margin: 0px 0px 0px 294px;
+}
+.div9 .text1 {
+	width: 39px;
+	height: 22px;
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 600;
+	color: black;
+	display: inline-block;
+	margin: 17px 91px 46px 26px;
+}

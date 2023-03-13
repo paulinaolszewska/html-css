@@ -1,0 +1,39 @@
+/* reset styli zawsze na początek */
+* {
+	margin: 0;
+	padding: 0;
+	/* robi tak że ustawienie wielkości uwzględnia w ielkość dla borderów i padingów */
+	box-sizing: border-box;
+}
+.box-title1 {
+	width: 400px;
+	height: 200px;
+	background-color: aqua;
+	text-align: center;
+	padding: 50px 60px;
+	border: 2px solid gray;
+	margin: 50px auto;
+	/* wyświetlanie w jednej lini */
+	display: inline-block;
+}
+.box-title2 {
+	width: 400px;
+	height: 200px;
+	background-color: orange;
+	text-align: center;
+	padding: 50px 60px;
+	border: 2px solid gray;
+	margin: 100px auto;
+	/* ukryty
+    display: none;
+     */
+	display: inline-block;
+	/* przezroczystość ukrywanie
+    opacity: 0;
+    */
+	opacity: 0.5;
+}
+.google {
+	display: block;
+	background-color: red;
+}

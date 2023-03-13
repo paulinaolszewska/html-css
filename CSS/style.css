@@ -1,0 +1,53 @@
+/* import fontów */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+/* 
+poniżej budowa komendy CSS
+selector{
+    właściwość:wartość;
+} 
+*/
+p {
+	color: red;
+}
+/* selektor id */
+#txt_el {
+	color: black;
+}
+/* selektor classy */
+.text_element {
+	color: orange;
+}
+.container .text-nr5 {
+	font-size: 24px;
+}
+/* poniżej pseudoklasa w () określona pozycja tj 7 pozycja "p" */
+.container .text-nr7:nth-child(7) {
+	color: blue;
+}
+/* podświetlenie po najechaniu */
+.container .text-nr1:hover {
+	color: yellow;
+}
+a.link {
+	color: blueviolet;
+	text-decoration: none;
+	/* użyj arial jeśli nie ma to Helvetica jeśli nie ma to jakiejkolwiek nie szeryfowej */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+    text-shadow: 38px -20px 6px rgba(66, 68, 90, 1);
+}
+p.text-lorem {
+	text-align: center;
+	line-height: 160%;
+	letter-spacing: 0px;
+    font-style:italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* usunięcie znaczków listy */
+ul.list{
+ list-style: none;
+}
+
