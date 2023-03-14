@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+/* selector{
+    właściwość:wartość;
+} */
+p {
+	color: red;
+}
+#txt-el {
+	color: violet;
+}
+.text-element {
+	color: orange;
+}
+.container .text-nr5:nth-child(5) {
+	font-size: 24px;
+}
+.container p:hover{
+    color:yellow;
+}
+a.link{
+    color:grey;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    font-weight:600;
+    text-shadow: 7px 1px 11px rgba(26, 26, 27, 1);
+    /* text-align:center; */
+}
+p.text-lorem{
+    text-align: center;
+    line-height: 1.8;
+    /* letter-spacing: 10px; */
+    font-style:italic;
+    font-family: 'Roboto', sans-serif;
+}
+ul.list{
+    list-style: none;
+}
