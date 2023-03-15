@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.txt{
+    font-size:28px;
+}
+@media screen and (max-width:1000px){
+    .txt{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:400px){
+    .txt{
+        font-size: 18px;
+    }
+}

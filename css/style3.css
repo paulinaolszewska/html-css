@@ -27,8 +27,8 @@ transition: transform 0.3s, opacity 1s cubic-bezier(.84,.2,.34,1);
     margin:20px;
     font-weight: 700;
     color:white;
-    /* text-stroke:1px black; */
-    text-shadow: 0 0 5px rgba(66, 68, 90, 1);
+    -webkit-text-stroke:1px black; 
+    /* text-shadow: 0 0 5px rgba(66, 68, 90, 1); */
     display: none;
     text-align: center;
     font-size:30px ;
@@ -57,6 +57,7 @@ transition: transform 0.3s, opacity 1s cubic-bezier(.84,.2,.34,1);
 }
 img{
     transition:0.4s;
+    width:60%;
 }
 .image:hover img{
     transform: scale(1.5);
